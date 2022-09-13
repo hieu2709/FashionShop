@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/BaiTapLonAndroid/Project Android Studio/app/src/main/res/drawable/btn_hong.xml" value="0.3223684210526316" />
+        <entry key="..\:/BaiTapLonAndroid/Project Android Studio/app/src/main/res/drawable/btn_xam.xml" value="0.3223684210526316" />
+        <entry key="..\:/BaiTapLonAndroid/Project Android Studio/app/src/main/res/layout/activity_chi_tiet_sp.xml" value="0.3087719298245614" />
+        <entry key="..\:/BaiTapLonAndroid/Project Android Studio/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/BaiTapLonAndroid/Project Android Studio/app/src/main/res/layout/activity_main.xml" value="0.3087719298245614" />
+        <entry key="..\:/BaiTapLonAndroid/Project Android Studio/app/src/main/res/layout/activity_search.xml" value="0.3087719298245614" />
+        <entry key="..\:/BaiTapLonAndroid/Project Android Studio/app/src/main/res/layout/activity_trang_chu.xml" value="0.3087719298245614" />
+        <entry key="..\:/BaiTapLonAndroid/Project Android Studio/app/src/main/res/layout/fragment_home.xml" value="0.3087719298245614" />
+        <entry key="..\:/BaiTapLonAndroid/Project Android Studio/app/src/main/res/layout/fragment_shopping_cart.xml" value="0.3087719298245614" />
+        <entry key="..\:/BaiTapLonAndroid/Project Android Studio/app/src/main/res/layout/fragment_sign_in_tab.xml" value="0.3087719298245614" />
+        <entry key="..\:/BaiTapLonAndroid/Project Android Studio/app/src/main/res/layout/fragment_sign_up_tab.xml" value="0.3087719298245614" />
+        <entry key="..\:/BaiTapLonAndroid/Project Android Studio/app/src/main/res/layout/fragment_user_profile.xml" value="0.3087719298245614" />
+        <entry key="..\:/BaiTapLonAndroid/Project Android Studio/app/src/main/res/layout/item_loading.xml" value="0.3087719298245614" />
+        <entry key="..\:/BaiTapLonAndroid/Project Android Studio/app/src/main/res/layout/item_san_pham.xml" value="0.3087719298245614" />
+        <entry key="..\:/BaiTapLonAndroid/Project Android Studio/app/src/main/res/layout/item_san_pham_cart.xml" value="0.3087719298245614" />
+        <entry key="..\:/DoanAndroi/Project Android Studio/app/src/main/res/drawable/ed_text_bg.xml" value="0.20877192982456141" />
+        <entry key="..\:/DoanAndroi/Project Android Studio/app/src/main/res/drawable/ed_text_bg_active.xml" value="0.20877192982456141" />
+        <entry key="..\:/DoanAndroi/Project Android Studio/app/src/main/res/drawable/ic_user_custom.xml" value="0.20877192982456141" />
+        <entry key="..\:/DoanAndroi/Project Android Studio/app/src/main/res/layout/activity_login.xml" value="0.19264069264069264" />
+        <entry key="..\:/DoanAndroi/Project Android Studio/app/src/main/res/layout/activity_main.xml" value="0.19264069264069264" />
+        <entry key="..\:/DoanAndroi/Project Android Studio/app/src/main/res/layout/fragment_sign_in_tab.xml" value="0.2" />
+        <entry key="..\:/DoanAndroi/Project Android Studio/app/src/main/res/layout/fragment_sign_up_tab.xml" value="0.19264069264069264" />
+        <entry key="..\:/DoanAndroid/Project Android Studio/app/src/main/res/drawable/bg_hong_corner.xml" value="0.20606060606060606" />
+        <entry key="..\:/DoanAndroid/Project Android Studio/app/src/main/res/drawable/btn_do.xml" value="0.11052631578947368" />
+        <entry key="..\:/DoanAndroid/Project Android Studio/app/src/main/res/drawable/ic_fullname_custom.xml" value="0.20606060606060606" />
+        <entry key="..\:/DoanAndroid/Project Android Studio/app/src/main/res/drawable/ic_telephone_custom.xml" value="0.20606060606060606" />
+        <entry key="..\:/DoanAndroid/Project Android Studio/app/src/main/res/drawable/ic_user_custom.xml" value="0.20606060606060606" />
+        <entry key="..\:/DoanAndroid/Project Android Studio/app/src/main/res/layout/activity_login.xml" value="0.16" />
+        <entry key="..\:/DoanAndroid/Project Android Studio/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/DoanAndroid/Project Android Studio/app/src/main/res/layout/fragment_sign_in_tab.xml" value="0.19264069264069264" />
+        <entry key="..\:/DoanAndroid/Project Android Studio/app/src/main/res/layout/fragment_sign_up_tab.xml" value="0.264" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/drawable/background_hong.xml" value="0.3181818181818182" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/drawable/bg_corner.xml" value="0.3181818181818182" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/drawable/bg_hong_corner.xml" value="0.3181818181818182" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/drawable/bg_indicator.xml" value="0.3181818181818182" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/drawable/bg_radio_custom.xml" value="0.3181818181818182" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/drawable/bg_trang.xml" value="0.3181818181818182" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/drawable/btn_hong.xml" value="0.3223684210526316" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/drawable/corner_white.xml" value="0.3181818181818182" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/drawable/ed_text_bg.xml" value="0.3181818181818182" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/drawable/ed_text_bg_active.xml" value="0.3181818181818182" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/drawable/ic_search_active.xml" value="0.3181818181818182" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/drawable/ic_search_custom.xml" value="0.3181818181818182" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/drawable/ic_user_custom.xml" value="0.3181818181818182" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/drawable/radio_text_color.xml" value="0.3181818181818182" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/drawable/textview_custom.xml" value="0.3181818181818182" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/layout/activity_chi_tiet_sp.xml" value="0.3087719298245614" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/layout/activity_login.xml" value="0.3087719298245614" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/layout/activity_main.xml" value="0.3087719298245614" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/layout/activity_search.xml" value="0.3087719298245614" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/layout/activity_trang_chu.xml" value="0.3087719298245614" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/layout/fragment_home.xml" value="0.3087719298245614" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/layout/fragment_shopping_cart.xml" value="0.3087719298245614" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/layout/fragment_sign_in_tab.xml" value="0.3087719298245614" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/layout/fragment_sign_up_tab.xml" value="0.3087719298245614" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/layout/fragment_user_profile.xml" value="0.3087719298245614" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/layout/item_photo_slide.xml" value="0.15081405312767782" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/layout/item_san_pham.xml" value="0.3087719298245614" />
+        <entry key="..\:/LapTrinhNhungAndroid/Project Android Studio/app/src/main/res/layout/layout.xml" value="0.2969298245614035" />
+        <entry key="..\:/Project Android Studio/app/src/main/res/drawable/background_hong.xml" value="0.33" />
+        <entry key="..\:/Project Android Studio/app/src/main/res/drawable/bg_hong_corner.xml" value="0.3223684210526316" />
+        <entry key="..\:/Project Android Studio/app/src/main/res/drawable/bg_trang.xml" value="0.3223684210526316" />
+        <entry key="..\:/Project Android Studio/app/src/main/res/drawable/bg_xanh_primary.xml" value="0.18552631578947368" />
+        <entry key="..\:/Project Android Studio/app/src/main/res/drawable/btn_do.xml" value="0.3828125" />
+        <entry key="..\:/Project Android Studio/app/src/main/res/drawable/btn_hong.xml" value="0.3828125" />
+        <entry key="..\:/Project Android Studio/app/src/main/res/drawable/ed_text_bg.xml" value="0.3223684210526316" />
+        <entry key="..\:/Project Android Studio/app/src/main/res/drawable/ed_text_bg_active.xml" value="0.3223684210526316" />
+        <entry key="..\:/Project Android Studio/app/src/main/res/drawable/ic_password_custom.xml" value="0.3223684210526316" />
+        <entry key="..\:/Project Android Studio/app/src/main/res/drawable/ic_user_custom.xml" value="0.3223684210526316" />
+        <entry key="..\:/Project Android Studio/app/src/main/res/drawable/shadow_bottom.xml" value="0.3223684210526316" />
+        <entry key="..\:/Project Android Studio/app/src/main/res/layout/activity_login.xml" value="0.3087719298245614" />
+        <entry key="..\:/Project Android Studio/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Project Android Studio/app/src/main/res/layout/fragment_sign_in_tab.xml" value="0.3087719298245614" />
+        <entry key="..\:/Project Android Studio/app/src/main/res/layout/fragment_sign_up_tab.xml" value="0.3087719298245614" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

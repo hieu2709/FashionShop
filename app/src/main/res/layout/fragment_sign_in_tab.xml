@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".fragment.SignUp_tab"
+        android:id="@+id/frSignIn_tab"
+        >
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <EditText
+            android:id="@+id/edUser"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="75dp"
+            android:hint="Nhập tên tài khoản"
+            android:inputType="textPersonName"
+            android:textSize="16dp"
+            android:textColorHint="@color/xam"
+            android:textColor="@color/den_primary"
+            android:paddingLeft="10dp"
+            android:drawablePadding="5dp"
+            android:background="@drawable/ed_text_bg"
+            android:drawableStart="@drawable/ic_user_custom"
+            android:shadowColor="@color/hong"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <EditText
+            android:id="@+id/edPassword"
+            android:hint="Nhập mật khẩu"
+            android:inputType="textPassword"
+            android:textSize="16dp"
+            android:textColorHint="@color/xam"
+            android:textColor="@color/den_primary"
+            android:shadowColor="@color/hong"
+            app:layout_constraintTop_toBottomOf="@+id/edUser"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="10dp"
+            android:drawablePadding="5dp"
+            android:background="@drawable/ed_text_bg"
+            android:drawableStart="@drawable/ic_password_custom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+
+        <TextView
+            android:id="@+id/tvForgot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="228dp"
+            android:text="Quên mật khẩu?"
+            android:textColor="@color/hong"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edPassword" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="12dp"
+            android:text="Bạn chưa có tài khoản?"
+            android:textColor="@color/hong"
+            app:layout_constraintStart_toStartOf="@+id/tvForgot"
+            app:layout_constraintTop_toBottomOf="@+id/edPassword" />
+
+        <Button
+            android:id="@+id/btnDangKy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/trans"
+            android:text="ĐĂNG KÝ"
+            android:textColor="@color/xanh_primary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edPassword" />
+
+        <Button
+            android:id="@+id/btnDangNhap"
+            app:layout_constraintTop_toBottomOf="@id/edPassword"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="75dp"
+            android:text="Đăng Nhập"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_hong"
+            app:layout_constraintWidth_percent="0.15"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

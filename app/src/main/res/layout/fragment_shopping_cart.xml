@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.ShoppingCartFragment"
+    android:id="@+id/shopping_cart_fragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcvCart"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"/>
+    <TextView
+        android:id="@+id/tvthongbao"
+        android:gravity="center"
+        android:text="Bạn cần đăng nhập để có thể mua hàng!"
+        android:textStyle="italic"
+        android:textSize="18dp"
+        android:textColor="@color/den_primary"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <Button
+        android:id="@+id/btnThanhtoan"
+        app:layout_constraintTop_toBottomOf="@id/rcvCart"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/btn_hong"
+        android:text="Thanh toán"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvtong"
+        app:layout_constraintTop_toBottomOf="@id/rcvCart"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="Tổng Tiền: "
+        android:textSize="15dp"
+        android:layout_marginTop="23dp"
+        android:textStyle="bold"
+        android:textColor="@color/den_primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tongtien"
+        app:layout_constraintTop_toBottomOf="@id/rcvCart"
+        app:layout_constraintLeft_toRightOf="@id/tvtong"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="2dp"
+        android:textSize="20dp"
+        android:textColor="@color/hongdam"
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvd"
+        app:layout_constraintTop_toTopOf="@id/tongtien"
+        app:layout_constraintLeft_toRightOf="@id/tongtien"
+        android:text="đ"
+        android:textStyle="bold"
+        android:textColor="@color/den_primary"
+        android:layout_marginLeft="1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

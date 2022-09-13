@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/trang_xam"
+    android:orientation="vertical"
+    tools:context=".activity.TrangChuActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/header"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/hong"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/tvTitle"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:background="@drawable/brand"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/btnlogin"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:gravity="center"
+            android:text="Đăng Nhập"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/corner_white"
+            android:paddingVertical="5dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tvUsername"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:gravity="center"
+            android:visibility="gone"
+            android:text="Nguyễn Minh Hiếu"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvDangXuat"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:background="@drawable/corner_white"
+            android:paddingVertical="5dp"
+            android:gravity="center"
+            android:text="Đăng Xuất"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        app:layout_constraintTop_toBottomOf="@id/header"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
+        android:paddingHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+<com.etebarian.meowbottomnavigation.MeowBottomNavigation
+    android:id="@+id/bottom_navigation"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:mbn_circleColor="@color/trang_xam"
+    app:mbn_selectedIconColor="@color/hong"
+    app:mbn_countTextColor="@color/trang_xam"
+    app:mbn_countBackgroundColor="@color/hong"
+    app:mbn_defaultIconColor="@color/trang_xam"
+    app:mbn_backgroundBottomColor="@color/hong"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

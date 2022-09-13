@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.SignUp_tab"
+    android:id="@+id/frSignUp_tab">
+
+    <EditText
+
+        android:id="@+id/edFullname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ed_text_bg"
+        android:drawableStart="@drawable/ic_fullname_custom"
+        android:drawablePadding="5dp"
+        android:inputType="textPersonName"
+        android:hint="Họ và tên"
+        android:paddingLeft="5dp"
+        android:shadowColor="@color/hong"
+        android:textColor="@color/den_primary"
+        android:textColorHint="@color/xam"
+        android:textSize="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/edUser"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ed_text_bg"
+        android:drawableStart="@drawable/ic_user_custom"
+        android:drawablePadding="5dp"
+        android:hint="Tên tài khoản"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:shadowColor="@color/hong"
+        android:textColor="@color/den_primary"
+        android:textColorHint="@color/xam"
+        android:textSize="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/edFullname"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/edPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ed_text_bg"
+        android:drawableStart="@drawable/ic_password_custom"
+        android:drawablePadding="5dp"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:shadowColor="@color/hong"
+        android:textColor="@color/den_primary"
+        android:textColorHint="@color/xam"
+        android:textSize="16dp"
+        app:layout_constraintTop_toBottomOf="@id/edUser"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+    <EditText
+        android:id="@+id/edTelephonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ed_text_bg"
+        android:drawableStart="@drawable/ic_telephone_custom"
+        android:drawablePadding="5dp"
+        android:hint="Số điện thoại"
+        android:inputType="phone"
+        android:paddingLeft="10dp"
+        android:shadowColor="@color/hong"
+        android:textColor="@color/den_primary"
+        android:textColorHint="@color/xam"
+        android:textSize="16dp"
+        app:layout_constraintTop_toBottomOf="@id/edPassword"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Bạn đã có tài khoản?"
+        android:textColor="@color/hong"
+       android:layout_marginLeft="88dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edTelephonenumber" />
+
+    <Button
+        android:id="@+id/btnDangNhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@color/trans"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:text="ĐĂNG NHẬP"
+        android:textColor="@color/xanh_primary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edTelephonenumber" />
+
+    <Button
+        android:id="@+id/btnDangKy"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn_hong"
+        android:text="Đăng Ký"
+        android:textColor="@color/white"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edTelephonenumber"
+        app:layout_constraintWidth_percent="0.15" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

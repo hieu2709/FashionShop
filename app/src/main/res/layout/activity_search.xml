@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/trang_xam"
+    tools:context=".activity.SearchActivity">
+
+    <ImageView
+        android:id="@+id/head"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/hong"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:id="@+id/btnQuayLai"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="Quay Lại"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        android:background="@drawable/corner_white"
+        android:layout_marginTop="9dp"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+     <EditText
+         android:id="@+id/edTensp"
+         app:layout_constraintTop_toBottomOf="@+id/head"
+         app:layout_constraintLeft_toLeftOf="@id/head"
+         android:hint="Nhập tên sản phẩm cần tìm"
+         android:inputType="textPersonName"
+         android:textColorHint="@color/xam"
+         android:textColor="@color/den_primary"
+         android:textSize="16dp"
+         android:background="@drawable/ed_text_bg_active"
+         android:paddingLeft="20dp"
+         android:layout_marginTop="150dp"
+         android:layout_marginLeft="40dp"
+         android:layout_width="300dp"
+         android:layout_height="44dp"/>
+
+    <TextView
+        android:id="@+id/tvGia"
+        app:layout_constraintTop_toBottomOf="@id/edTensp"
+        app:layout_constraintLeft_toLeftOf="@id/edTensp"
+        android:text="Giá"
+        android:textColor="@color/den_primary"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:textSize="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edMin"
+        app:layout_constraintTop_toBottomOf="@+id/edTensp"
+        app:layout_constraintLeft_toRightOf="@id/tvGia"
+        android:hint="Min"
+        android:inputType="number"
+        android:textColorHint="@color/xam"
+        android:textColor="@color/den_primary"
+        android:textSize="16dp"
+        android:textAlignment="center"
+        android:background="@drawable/ed_text_bg_active"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="120dp"
+        android:layout_height="44dp"/>
+
+    <TextView
+        android:id="@+id/gachnoi"
+        app:layout_constraintTop_toBottomOf="@id/edTensp"
+        app:layout_constraintLeft_toRightOf="@id/edMin"
+        android:text="-"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/den_primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edMax"
+        app:layout_constraintTop_toBottomOf="@+id/edTensp"
+        app:layout_constraintLeft_toRightOf="@id/gachnoi"
+        android:hint="Max"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:textColorHint="@color/xam"
+        android:textColor="@color/den_primary"
+        android:textSize="16dp"
+        android:background="@drawable/ed_text_bg_active"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="120dp"
+        android:layout_height="44dp"/>
+
+    <Button
+        android:id="@+id/btnTim"
+        app:layout_constraintTop_toBottomOf="@id/tvGia"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="50dp"
+        android:text="Tìm Kiếm"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_hong"
+        app:layout_constraintWidth_percent="0.15"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/foot"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@color/hong"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
